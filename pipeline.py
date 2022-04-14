@@ -5,5 +5,4 @@ from pipeline_components import hello
 
 @dsl.pipeline(name="my-pipeline")
 def pipeline(input_name: str):
-    
     hello(input_name)
